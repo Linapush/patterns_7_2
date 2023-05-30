@@ -4,8 +4,6 @@ from faker import Faker
 class PersonAttrsCreator:
 __instance = None
 
-python
-
 def __new__(cls):
     if not cls.__instance:
         cls.__instance = super(PersonAttrsCreator, cls).__new__(cls)
